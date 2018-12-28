@@ -1,0 +1,19 @@
+### GET request that fetches all hotels
+GET http://localhost:8080/hotels/all
+Content-Type: application/json
+
+### GET request that fetches hotels by name
+GET http://localhost:8080/hotels/ibis2
+Content-Type: application/json
+
+### POST request to checkIn some guests
+POST http://localhost:8080/hotels/checkIn
+Content-Type: application/json
+
+{
+  "hotelName":"ibis",
+  "nbGuest":2
+}
+
+###
+
